@@ -46,7 +46,7 @@ bot.dialog('Start', [
             session, [
               builder.CardAction.imBack(session, "Hire for my team.", "Hire for your team"),
               builder.CardAction.imBack(session, "Get requisition status.", "Get status update on existing request"),
-              builder.CardAction.imBack(session, "Get status update on my hiring request.", "Get Status Update on your hiring request"),
+              builder.CardAction.imBack(session, "Explore hiring options", "Explore hiring options"),
               builder.CardAction.imBack(session, "Get my query answered", "Get a Query Answered")
             ]
           ));
